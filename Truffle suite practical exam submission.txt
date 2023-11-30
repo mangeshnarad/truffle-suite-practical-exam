@@ -1,0 +1,61 @@
+1) Explain briefly the steps involved in initiating a project in Truffle
+and demonstrate the same.
+=>
+steps=1)npm install -g truffle
+2)truffle init
+3)truffle compile
+4)truffle migrate
+5)truffle test
+6)mkdir MyTruffleProject
+cd MyTruffleProject
+truffle init
+7)pragma solidity ^0.8.0;
+
+contract SimpleStorage {
+    uint256 public data;
+
+    function setData(uint256 _data) public {
+        data = _data;
+    }
+}
+8)truffle compile
+truffle migrate
+
+2) How to Write and Compile a Solidity Smart Contract file using
+Truffle?
+=>
+steps=1)mkdir MyTruffleProject
+cd MyTruffleProject
+truffle init
+2)
+pragma solidity ^0.8.0;
+
+contract MyContract {
+    uint256 public myData;
+
+    function setMyData(uint256 _data) public {
+        myData = _data;
+    }
+}
+3)truffle compile
+
+3) Demonstrate the process of deploying smart contract on
+Ganache using Truffle suite.
+=>
+Step 1: Install Ganache
+Download and install Ganache from the official website: Ganache.
+
+Step 2: Run Ganache
+Start Ganache to create a local Ethereum blockchain. It will provide you with a set of accounts, each loaded with test Ether.
+Step 3: Create a Truffle Project
+Step 4: Write a Smart Contract
+Step 5: Configure Truffle for Ganache
+Step 6: Compile the Smart Contract
+Step 7: Migrate the Smart Contract
+Step 8: Interact with the Deployed Contract.
+
+
+
+
+
+
